@@ -1,7 +1,6 @@
 language: c
 script: 
-    - cd hello
-    - make && make test
-compiler:
-    - gcc
-    - clang
+    - make -C hello all tests
+
+
+
